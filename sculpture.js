@@ -36,8 +36,8 @@
       vec3 reflected=reflect(-v,n);
       float strip=pow(max(0.,1.-abs(reflected.y-.38)*2.3),12.);
       float occlusion=clamp(shape(p+n*.2)/.2,.25,1.);
-      vec3 base=mix(vec3(.10,.15,.055),vec3(.60,.78,.24),diffuse);
-      vec3 color=base*(.48+.62*diffuse)*occlusion+vec3(.9,1.,.69)*spec*.85+vec3(.66,.87,.35)*fresnel*.35+vec3(.77,.91,.55)*strip*.45;
+      vec3 base=mix(vec3(.075,.018,.16),vec3(.57,.16,.86),diffuse);
+      vec3 color=base*(.48+.62*diffuse)*occlusion+vec3(.97,.86,1.)*spec*.85+vec3(.70,.30,1.)*fresnel*.35+vec3(.86,.64,1.)*strip*.45;
       color=pow(color,vec3(.86));
       gl_FragColor=vec4(color,1.);
     }`;

@@ -1,6 +1,6 @@
 # Nexora Gaming
 
-Sitio corporativo en español para presentar servicios de desarrollo web, plataformas white label, paneles e integraciones. Diseño adaptable a celular y escritorio, sin dependencias de producción ni recursos externos.
+Sitio corporativo en español para presentar servicios de desarrollo web, plataformas white label, paneles e integraciones. Identidad visual violeta, negro y blanco basada en el logo provisto. Diseño adaptable a celular y escritorio, sin dependencias de producción ni recursos externos.
 
 ## Contenido e interacciones
 
@@ -49,6 +49,7 @@ El formulario no tiene backend ni guarda consultas. Si se necesita recibir mensa
 - `styles.css`: colores, tipografía local, tamaños y adaptación por pantalla.
 - `app.js`: demostración interactiva y comportamiento del formulario.
 - `sculpture.js`: escultura 3D procedural, limitada a aproximadamente 30 cuadros por segundo, suspendida cuando no está visible.
-- `assets/favicon.svg`: marca del sitio.
+- `assets/nexora-logo.png`: logo original provisto, sin modificaciones. Encabezado y pie muestran el símbolo y el nombre mediante ventanas SVG sobre esta misma imagen.
+- `assets/favicon.svg`: versión vectorial simplificada del símbolo para la pestaña del navegador.
 
 El alcance comercial es una presentación inicial. No incluye métricas, clientes, testimonios ni alianzas inventadas. Ajustar los textos de alcance y soporte a las prestaciones acordadas con cada cliente.
