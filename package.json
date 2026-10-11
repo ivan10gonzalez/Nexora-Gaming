@@ -1,0 +1,13 @@
+{
+  "name": "nexora-gaming",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio corporativo de Nexora Gaming: desarrollo de plataformas e identidad digital.",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "check": "node --check app.js && node --check sculpture.js && node --check config.js"
+  },
+  "engines": { "node": ">=20" }
+}
